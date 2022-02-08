@@ -5,7 +5,8 @@ namespace ThirdPartyAccess
     {
         static void Main(string[] args)
         {
-            CsvHandler.ImplementCSVDataHandling();
+            CsvHandlerCsv.ImplementCSVDataHandling();
+            CsvHandlerJson.ImplementJSON();
         }
     }
 }
